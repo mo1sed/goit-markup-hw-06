@@ -489,7 +489,6 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 
 .team-member-role {
@@ -499,7 +498,6 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 
 .team-title-container {
@@ -745,6 +743,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  gap: 72px;
 }
 
 .webstudio-cloud {
@@ -765,8 +764,7 @@ button {
   color: #ffffff;
   margin-bottom: 16px;
   line-height: 1.5;
-  text-align: left;
-  margin-top: 72px;
+  text-align: center;
 }
 
 .footer-subscribe-title {
@@ -774,7 +772,6 @@ button {
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
-  margin-top: 72px;
   margin-bottom: 16px;
   line-height: 1.5;
   text-align: center;
@@ -877,6 +874,7 @@ button {
   .footer-container {
     display: flex;
     flex-direction: row;
+    gap: 0;
     padding-left: 108px;
     align-items: flex-start;
   }
@@ -891,7 +889,6 @@ button {
   .footer-subscribe-title {
     display: block;
     text-align: left;
-    margin-top: 72px;
   }
 
   .footer-subscribe-form {
@@ -905,7 +902,7 @@ button {
   }
 
   .footer-social-title {
-    margin-top: 0px;
+    text-align: left;
   }
 }
 
@@ -924,11 +921,10 @@ button {
   .footer-subscribe-title {
     display: block;
     text-align: left;
-    margin-top: 0px;
   }
 
   .footer-social-title {
-    margin-top: 0px;
+    text-align: left;
   }
 
   .footer-social-block {
